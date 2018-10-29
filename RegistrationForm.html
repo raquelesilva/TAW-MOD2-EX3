@@ -27,7 +27,21 @@
         <div>
             <label for="terms">Click to accept our terms:</label>
             <input type="checkbox" name="terms" id="terms">
-        </div>              
+        </div>
+        <div>
+            <label for="referral">Where did you hear about us?</label>
+            <select name="referral" id="referral">
+                <option value="0">--Please choose--</option>
+                <optgroup label="Search Engine">
+                    <option value="Google">Google</option>
+                    <option value="Yahoo">Yahoo!</option>
+                    <option value="MSN">MSN</option>
+                    <option value="OtherSearchEngine">Other</option>
+                </optgroup>
+                <option value="wom">Word of Mouth</option>
+                <option value="other">Other</option>
+            </select>
+        </div>                    
         <div>
             <input type="submit" name="submitbutton" id="submitbutton" value="Register">
             <input type="reset" name="resetbutton" id="resetbutton">
